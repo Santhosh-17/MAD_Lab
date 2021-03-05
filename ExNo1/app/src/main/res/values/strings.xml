@@ -2,4 +2,12 @@
     <string name="app_name">ExNo1</string>
     <string name="button">Click ME!</string>
     <string name="name">Name</string>
+    <string name="tsh">Type Something Here!</string>
+    <string name="labelName">Simple Android Application that uses GUI components Font and Colors.</string>
+    <string name="font_size">Font Size</string>
+    <string name="textclr">Font Color</string>
+    <string name="textStyle">Font Style</string>
+    <string name="font_colour">Change Font Colour</string>
+    <string name="font_size1">Change Font Size</string>
+    <string name="font_style">Change Font Style</string>
 </resources>
