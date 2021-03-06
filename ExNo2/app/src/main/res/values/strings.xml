@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExNo2</string>
+    <string name="details_form">Details Form</string>
+    <string name="name">Name</string>
+    <string name="reg_no">Reg.No</string>
+    <string name="dept">Dept</string>
+    <string name="submit">Submit</string>
+</resources>
