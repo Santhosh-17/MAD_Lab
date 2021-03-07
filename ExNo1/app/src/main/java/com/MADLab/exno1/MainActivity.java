@@ -15,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
     int textSize = 18;
     int ch = 1 , ch1 = 1;
     TextView label;
-    Button fontClr,fontSize,fontStyle;
+    Button fontClr,fontSize,font;
+    Typeface typeface;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         label = findViewById(R.id.label);
         fontSize = findViewById(R.id.fontSize);
         fontClr = findViewById(R.id.fontClr);
-        fontStyle = findViewById(R.id.fontStyle);
+        font = findViewById(R.id.fontStyle);
 
         fontSize.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,27 +71,41 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        fontStyle.setOnClickListener(new View.OnClickListener() {
+        font.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(ch1 == 4){
+                if(ch1==5){
                     ch1 = 0;
                 }
                 switch (ch1) {
                     case 0:
-                        label.setTypeface(Typeface.defaultFromStyle(Typeface.NORMAL));
+                        typeface = Typeface.createFromAsset(getAssets(), "font/sourcesanspro.ttf");
+                        label.setTypeface(typeface);
+                        ch1++;
                         break;
                     case 1:
-                        label.setTypeface(Typeface.defaultFromStyle(Typeface.BOLD));
+                        typeface = Typeface.createFromAsset(getAssets(), "font/raleway.ttf");
+                        label.setTypeface(typeface);
+                        ch1++;
                         break;
+
                     case 2:
-                        label.setTypeface(Typeface.defaultFromStyle(Typeface.ITALIC));
+                        typeface = Typeface.createFromAsset(getAssets(), "font/pacifico.ttf");
+                        label.setTypeface(typeface);
+                        ch1++;
                         break;
                     case 3:
-                        label.setTypeface(Typeface.defaultFromStyle(Typeface.BOLD_ITALIC));
+                        typeface = Typeface.createFromAsset(getAssets(), "font/greatvibes.ttf");
+                        label.setTypeface(typeface);
+                        ch1++;
+                        break;
+                    case 4:
+                        typeface = Typeface.createFromAsset(getAssets(), "font/rajdhani.ttf");
+                        label.setTypeface(typeface);
+                        ch1++;
                         break;
                 }
-                ch1++;
+
 
             }
         });
