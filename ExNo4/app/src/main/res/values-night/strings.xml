@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_contacts">Add Contacts</string>
+    <string name="view_contacts">View Contacts</string>
+    <string name="contact_name">Enter Contact Name</string>
+    <string name="econtact_number">Enter Contact Number</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete Contact</string>
+    <string name="update">Update Contact</string>
+    <string name="back">Back</string>
+</resources>

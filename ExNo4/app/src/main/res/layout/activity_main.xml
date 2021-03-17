@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/contact_manager"
+        android:layout_above="@id/centre"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:layout_margin="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/centre"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/insertButton"
+        android:layout_below="@id/centre"
+        android:layout_alignEnd="@id/centre"
+        android:layout_alignRight="@id/centre"
+        android:layout_margin="20sp"
+        android:text="@string/add_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/viewButton"
+        android:layout_alignLeft="@id/centre"
+        android:layout_alignStart="@id/centre"
+        android:text="@string/view_contacts"
+        android:layout_below="@id/centre"
+        android:layout_width="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
