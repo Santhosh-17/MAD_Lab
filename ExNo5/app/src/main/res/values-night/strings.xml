@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Title</string>
+    <string name="message">Message</string>
+    <string name="notify">Notify</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ExNo5</string>
+    <string name="title">Title</string>
+    <string name="message">Message</string>
+    <string name="notify">Notify on Channel1</string>
+    <string name="notify2">Notify on Channel2</string>
+</resources>
