@@ -3,3 +3,4 @@ LIST OF EXPERIMENTS
 2. Develop an application that uses Layout Managers and event listeners.
 3. Write an application that draws basic graphical primitives on the screen.
 4. Develop an application that makes use of databases.
+5. Develop an application that makes use of Notification Manager
