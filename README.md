@@ -4,3 +4,5 @@ LIST OF EXPERIMENTS
 3. Write an application that draws basic graphical primitives on the screen.
 4. Develop an application that makes use of databases.
 5. Develop an application that makes use of Notification Manager
+6. Implement an application that uses Multi-threading
+7. Develop a native application that uses GPS location information
