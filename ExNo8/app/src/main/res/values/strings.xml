@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ExNo8</string>
+    <string name="write">Write Data</string>
+    <string name="read">Read Data</string>
+    <string name="clear">Clear</string>
+</resources>
