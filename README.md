@@ -6,3 +6,4 @@ LIST OF EXPERIMENTS
 5. Develop an application that makes use of Notification Manager
 6. Implement an application that uses Multi-threading
 7. Develop a native application that uses GPS location information
+8. Implement an application that writes data to the SD card.
