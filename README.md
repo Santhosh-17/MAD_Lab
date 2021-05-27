@@ -7,3 +7,5 @@ LIST OF EXPERIMENTS
 6. Implement an application that uses Multi-threading
 7. Develop a native application that uses GPS location information
 8. Implement an application that writes data to the SD card.
+9. Implement an application that creates an alert upon receiving a message
+10. Write a mobile application that makes use of RSS feed
