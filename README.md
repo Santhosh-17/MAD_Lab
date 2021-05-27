@@ -9,3 +9,4 @@ LIST OF EXPERIMENTS
 8. Implement an application that writes data to the SD card.
 9. Implement an application that creates an alert upon receiving a message
 10. Write a mobile application that makes use of RSS feed
+11. Develop a mobile application to send an email.
