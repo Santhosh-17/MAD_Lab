@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ExNo9</string>
+    <string name="service_name">Notification_Listener</string>
+</resources>
